@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MedConnect - Medical Student Portal</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+  <!-- Font Awesome for Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Fixed Background Image -->
+  <div class="fixed-background"></div>
+
+  <!-- Fixed Video -->
+  <div class="fixed-video">
+    <video autoplay muted loop>
+      <source src="videos/dna.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand text-gold" href="#">Med<span>Connect</span></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#books">Books</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#materials">Blog</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#resources">Resources</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#community">Community</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+   
+  <!-- Announcement Bar -->
+  <div class="announcement-bar">
+    <div class="announcement-container">
+      <div class="announcement-text">🚨 New Update: Check out the latest medical books and study materials!</div>
+      <div class="announcement-text">📢 Don't miss our upcoming webinar on clinical skills!</div>
+      <div class="announcement-text">🎉 Special offer: Get 20% off on all medical books this week!</div>
+      <div class="announcement-text">📚 New study materials added: Anatomy and Pharmacology notes!</div>
+      <div class="announcement-text">👩‍⚕️ Join our community forum to connect with fellow medical students!</div>
+    </div>
+  </div>
+
+  <!-- Home Section -->
+  <section id="home" class="home-section d-flex align-items-center">
+    <div class="container text-center">
+      <h1 class="text-gold animate-slide-in">Welcome to MedConnect</h1>
+      <p class="text-white animate-slide-in">Your Gateway to Medical Knowledge</p>
+      <a href="#books" class="btn btn-gold mt-3 animate-fade-in">Explore Resources</a>
+      
+    </div>
+  </section>
+
+   <!-- About Section -->
+   <section id="about" class="about-section py-5">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <h2 class="text-gold mb-4">About</h2>
+          <p class="text-white">
+            MedConnect is a platform designed to empower medical students by providing access to a wide range of resources, including books, study materials, and webinars. Our mission is to make medical education more accessible and engaging for students worldwide.
+          </p>
+          <p class="text-white">
+            Join our community today and take your medical studies to the next level!
+          </p>
+          <a href="#books" class="btn btn-gold mt-3">Explore Resources</a>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="images/6.png" alt="About MedConnect" class="img-fluid rounded animate-fade-in">
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Books Section -->
+<section id="books" class="books-section py-5">
+    <div class="container position-relative">
+      <h2 class="text-center text-gold mb-5">Books</h2>
+      <!-- Left Scroll Arrow -->
+      <button class="scroll-arrow left-arrow" id="left-arrow">
+        <i class="fa fa-chevron-left" aria-hidden="true"></i>
+      </button>
+      <!-- Right Scroll Arrow -->
+      <button class="scroll-arrow right-arrow" id="right-arrow">
+        <i class="fa fa-chevron-right" aria-hidden="true"></i>
+
+      </button>
+      <!-- Horizontal Scroll Container -->
+      <div class="scroll-container" id="scroll-container">
+        <div class="book-card">
+          <div class="card bg-dark text-white">
+            <img src="images/gray.jpeg" class="card-img-top" alt="Gray's Anatomy Cover">
+            <div class="card-body">
+              <h5 class="card-title">Gray's Anatomy</h5>
+              <p class="card-text">Henry Gray</p>
+              <a href="" class="download-link" download>
+                <i class="bi bi-download" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="book-card">
+          <div class="card bg-dark text-white">
+            <img src="images/gray.jpeg" class="card-img-top" alt="Gray's Anatomy Cover">
+            <a href="BOOKS/Unnatural Causes ( PDFDrive ).pdf"></a>
+            <div class="card-body">
+              <h5 class="card-title">Harrison's Principles</h5>
+              <p class="card-text">J. Larry Jameson</p>
+              <a href="" class="download-link" download>
+                <i class="bi bi-download" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="book-card">
+          <div class="card bg-dark text-white">
+            <img src="images/gray.jpeg" class="card-img-top" alt="Gray's Anatomy Cover">
+            <div class="card-body">
+              <h5 class="card-title">Clinical Microbiology</h5>
+              <p class="card-text">Richard Goering</p>
+              <a href="" class="download-link" download>
+                <i class="bi bi-download" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="book-card">
+          <div class="card bg-dark text-white">
+            <img src="images/gray.jpeg" class="card-img-top" alt="Gray's Anatomy Cover">
+            <div class="card-body">
+              <h5 class="card-title">Pharmacology</h5>
+              <p class="card-text">Karen Whalen</p>
+              <a href="" class="download-link" download>
+                <i class="bi bi-download" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="book-card">
+          <div class="card bg-dark text-white">
+            <img src="images/gray.jpeg" class="card-img-top" alt="Gray's Anatomy Cover">
+            <div class="card-body">
+              <h5 class="card-title">Pathophysiology</h5>
+              <p class="card-text">Carol Porth</p>
+              <a href="" class="download-link" download>
+                <i class="bi bi-download" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Materials Section -->
+<section id="materials" class="materials-section py-5">
+  <div class="container">
+    <h2 class="text-center text-gold mb-5">Latest News & Publications</h2>
+    <div class="row">
+      <!-- Latest News Column -->
+      <div class="col-md-6 mb-4">
+        <div class="material-category">
+          <h3 class="text-gold mb-4">📰 Latest News</h3>
+          <div class="scrollable-container">
+            <div class="material-item">
+              <div class="card bg-gradient-gold">
+                <div class="card-body">
+                  <h5 class="card-title">Health Report</h5>
+                  <p class="card-text">Life-changing' gene therapy for children born blind</p>
+                  <a href="https://www.bbc.com/news/articles/c5ydnz2d75xo" class="btn btn-dark">
+                    <i class="bi bi-eye-fill"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="material-item">
+              <div class="card bg-gradient-gold">
+                <div class="card-body">
+                  <h5 class="card-title">Telemedicine Boom</h5>
+                  <p class="card-text">The rise of remote healthcare services.</p>
+                  <a href="#" class="btn btn-dark"><i class="bi bi-eye-fill"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="material-item">
+              <div class="card bg-gradient-gold">
+                <div class="card-body">
+                  <h5 class="card-title">CRISPR Breakthrough</h5>
+                  <p class="card-text">Gene editing and its impact on medicine.</p>
+                  <a href="#" class="btn btn-dark"><i class="bi bi-eye-fill"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- Add more news items here -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Publications Column -->
+      <div class="col-md-6 mb-4">
+        <div class="material-category">
+          <h3 class="text-gold mb-4">📚 Publications</h3>
+          <div class="scrollable-container">
+            <div class="material-item">
+              <div class="card bg-gradient-gold">
+                <div class="card-body">
+                  <h5 class="card-title">Anatomy Research</h5>
+                  <p class="card-text">New findings in human anatomy.</p>
+                  <a href="#" class="btn btn-dark"><i class="bi bi-eye-fill"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="material-item">
+              <div class="card bg-gradient-gold">
+                <div class="card-body">
+                  <h5 class="card-title">Pharmacology Review</h5>
+                  <p class="card-text">Advances in drug development.</p>
+                  <a href="#" class="btn btn-dark"><i class="bi bi-eye-fill"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="material-item">
+              <div class="card bg-gradient-gold">
+                <div class="card-body">
+                  <h5 class="card-title">Pathology Insights</h5>
+                  <p class="card-text">Understanding disease mechanisms.</p>
+                  <a href="#" class="btn btn-dark"><i class="bi bi-eye-fill"></i></a>
+                </div>
+              </div>
+            </div>
+            <!-- Add more publication items here -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Resources Section -->
+<section id="resources">
+  <div class="resources-container">
+    <h2 class="resources-heading">Resources</h2>
+    <p class="resources-description">Access a comprehensive collection of study materials, including notes, past papers, and question banks, all designed to support your learning and academic success. 
+      Stay ahead with well-organized resources that help you prepare effectively and excel in your studies.</p>
+    <a href="resources.html" class="resources-link">Browse All Resources</a>
+  </div>
+</section>
+
+
+<!-- Community Section -->
+<section id="community">
+  <div class="community-container">
+    <h2 class="community-heading">Join Our Community</h2>
+    <p class="community-description">Connect with fellow students, share ideas, and grow together.</p>
+    
+    <div class="community-features">
+      <a href="forum.html" class="community-link">
+        <i class="fas fa-comments"></i>
+        <span>Discussion Forum</span>
+      </a>
+      <a href="chat.html" class="community-link">
+        <i class="fas fa-comment-dots"></i>
+        <span>Live Chat</span>
+      </a>
+      <a href="https://twitter.com/yourcommunity" class="community-link" target="_blank">
+        <i class="fab fa-twitter"></i>
+        <span>Follow Us</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Us Section -->
+<section id="contact">
+  <div class="contact-container">
+    <h2 class="contact-heading">Contact Us</h2>
+    <p class="contact-description">Have questions or feedback? Reach out to us!</p>
+    
+    <form class="contact-form" action="mailto:developers@example.com" method="post" enctype="text/plain">
+      <div class="form-group">
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+      </div>
+      <div class="form-group">
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+      </div>
+      <div class="form-group">
+        <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="contact-button">Send Email</button>
+    </form>
+
+    <p class="contact-or">- OR -</p>
+
+    <a href="https://wa.me/1234567890" class="whatsapp-button" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+      Message Us on WhatsApp
+    </a>
+  </div>
+</section>
+
+
+ <!-- Footer -->
+ <footer>
+  <p>&copy; 2025 medConnect. All rights reserved.</p>
+</footer>
+
+
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
